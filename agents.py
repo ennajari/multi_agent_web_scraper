@@ -1,5 +1,5 @@
 from crewai import Agent
-from tools.web_scraper_tool import WebScraperTool
+from crewai_tools.tools import ScraperTool
 from tools.data_cleaning_tool import DataCleaningTool
 from tools.json_tool import JsonTool
 
