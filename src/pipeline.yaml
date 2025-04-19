@@ -2,3 +2,5 @@ steps:
   - step: "fetch_page"
   - step: "parse_page"
   - step: "save_to_csv"
+  - step: "download_files"
+  - step: "upload_to_s3"

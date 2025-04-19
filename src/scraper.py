@@ -6,5 +6,5 @@ def fetch_page(url):
         response.raise_for_status()
         return response.text
     except requests.RequestException as e:
-        print(f"Erreur lors de la requête : {e}")
+        print(f"[Scraper] Erreur : {e}")
         return None
